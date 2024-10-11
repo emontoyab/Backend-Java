@@ -1,13 +1,23 @@
 # CV backend
 #### by: Esteban Montoya 🦊
 ---
+>[!NOTE]
+>This project has different stages and some changes will be added. Every stage update will be added below, showing the most recent and current version on top. 
 
-This backend is aimed to build a first stage of a web page backend connected to a SQL Database to retrieve information about the user's profile. This stage provides a script to create a Database including one table of courses with columns for name, institution, start and end date and if the course obtained a certification. After running this script, the database will be created and API requests will be available to retrieve any CRUD method, just by running the server. 
+### Second Stage
+
+This stage adds 10 tables in order to expand the information of CV profile. To create these tables in your own repository you should run the `cv-full.sql` script. Currently, there is no a CRUD method implemented for these tables, but in the future this feature will be available.
+
+### First Stage
+
+This backend is aimed to build a first stage of a web page backend connected to a SQL Database to retrieve information about the user's Resume (Curriculum Vitae) profile. This stage provides a script to create a Database including one table of courses with columns for name, institution, start and end date and if the course obtained a certification. After running this script, the database will be created and API requests will be available to retrieve any CRUD method, just by running the server. 
+
+---
 
 ## Instructions
 ---
 
-In order to use this repository, is necessary to follow the instructions above:
+In order to use this repository, is necessary to follow the instructions below:
 
 1. Bring your own SQL credentials into `application.properties` file in the next path: `src/main/resources/application.properties`. They should look like the following:
 
